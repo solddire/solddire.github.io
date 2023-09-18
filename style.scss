@@ -68,16 +68,23 @@ header{
         min-height: 310px;    
     }
 }
-.slick-buttons-jobs{
+.slick-buttons-services{
     display:flex;
     justify-content:center;
     height:25px;
     margin-top:32px
 }
+.slick-buttons-jobs{
+    display: none;
+    // display:flex;
+    // justify-content:center;
+    height:25px;
+    margin-top:60px
+}
 .slick_button{
     cursor:pointer;
     width:25px;
-    color: white;
+    color: #ffffff;
 }
 .prev_button{
     margin-right:80px
@@ -85,8 +92,19 @@ header{
 .slick-next, .slick-prev{
     display: none;
 }
-
-.our-job-container{
+.slick-dots{
+    right: 5px;
+    bottom: -40px!important;
+}
+.slick-dots li button::before{
+    color: #ffd700;
+    width: 30px;
+    height: 30px;
+}
+.slick-dots li.slick-active button:before {
+    color: #ffd700; /* Устанавливаем белый цвет для активной точки */
+}
+.our-services-container{
     background-color: rgb(255 228 76);
     border-radius: 20px;
     padding: 10px;
@@ -111,7 +129,14 @@ header{
         margin-right: 20px;
     }
 }
-
+.our-jobs-container{
+    display: flex!important;
+    justify-content: center!important;
+    img{
+        max-width: 1000px;
+        border-radius: 20px;
+    }
+}
 .blackNav {
     background-color: #484848;
 }
