@@ -12,17 +12,6 @@ html{
 header{
     min-height: 100px;
 }
-
-@media(min-width:320px) {
-    .header-order-button{
-        display: none;
-    }
-}
-@media(min-width:1024px) {
-    .header-order-button{
-        display: block;
-    }
-}
 .header-container {
     position: fixed;
     z-index: 2000;
@@ -64,8 +53,8 @@ header{
     img{
         object-fit: cover;
         border-radius: 20px;
-        min-width: 500px;
-        min-height: 310px;    
+        min-width: 200px;
+        min-height: 150px;  
     }
 }
 .slick-buttons-services{
@@ -154,6 +143,8 @@ header{
     left: 0;
     right: 0;
     z-index: -1;
+    box-shadow: 0px 0px 35px 15px rgba(255, 72, 72, 0.98);
+    // rgba(244, 64, 64, 0.98);
 }
 form{
     background-color: #484848;
@@ -180,12 +171,26 @@ form{
         width: 100%;
         max-width: 469px;
         height: 66px;
+        cursor: pointer;
         border-radius: 8px;
         color: #000;
         transition: all .2s ease-in-out;
         font-size: 18px;
         text-transform: uppercase;
         font-weight: 700;
+    }
+    #submit:hover{
+        background-color: #c9ab00;
+    }
+}
+.vkontakte{
+    path{
+        fill: #0062ff;
+    }
+}
+.instagram{
+    path{
+        fill: rgb(255, 38, 0);
     }
 }
 .text-contact{
@@ -197,6 +202,92 @@ form{
         margin-bottom: 30px;
     }
 }
+.caption-footer{
+    color: #ffd700;
+}
 footer{
+    border-radius: 10px;
     background-color: #1a1a1a;
+}
+.hr-footer{
+    border-color: #ffd700;
+}
+.button-burger{
+    border-color: #818181;
+    border-width: 2px;
+}
+.burger-menu{
+    path{
+        color: #ffd700;
+    }
+}
+@media(min-width:320px) {
+    .header-order-button{
+        display: none;
+    }
+}
+@media(max-width:1440px){
+    .our-jobs-container{
+        img{
+            width: 90%;
+        }
+    }
+}
+@media(max-width:768px){
+    .our-jobs-container{
+        img{
+            width: 80%;
+        }
+    }
+    nav, .header-container{
+        position: absolute!important;
+        ul li{
+            border-bottom-width: thin;
+        }
+    }
+    .mobile-menu{
+        background-color: #484848;
+    }
+}
+@media(max-width:640px){
+    .about-us{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-us-mini-blocks{
+        display: flex;
+        justify-content: center; 
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 2rem;
+        }
+    }
+    footer{
+        .logo-button{
+            display: flex;
+            margin-bottom: 25px;
+            justify-content: center;
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+        }
+        .icons-social{
+            justify-content: center;
+        }
+    }
+}
+@media(max-width: 560px){
+    form{
+        padding: 50px;
+    }
+}
+@media(min-width:1024px) {
+    .header-order-button{
+        display: block;
+    }
 }
