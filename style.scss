@@ -246,7 +246,7 @@ footer{
         }
     }
     .mobile-menu{
-        background-color: #484848;
+        transition: background-color 0.3s;
     }
 }
 @media(max-width:640px){
