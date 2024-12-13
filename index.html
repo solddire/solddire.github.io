@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тай Вес | База Отдыха</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="./css/mobile.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Подключение CSS Slick -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+  </head>
+  <body>
+    <header class="header container">
+      <a href="#"
+        ><img class="header__logo" src="./images/logo.png" alt="Логотип"
+      /></a>
+      <button class="header__burger" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="header__burger-dropdown container">
+        <ul>
+          <a href="#"><li>Главная</li></a>
+          <a href="#"><li>Апартаменты</li></a>
+          <a href="#"><li>Доп. Услуги</li></a>
+          <a href="#"><li>Отзывы</li></a>
+          <a href="#"><li>Контакты</li></a>
+        </ul>
+      </div>
+      <nav class="header__nav">
+        <a href="#">Главная</a>
+        <a href="#">Апартаменты</a>
+        <div class="dropdown">
+          <button class="dropdown__button">
+            Прочее <img src="./images/arrow-up.svg" alt="arrow-up" />
+          </button>
+          <div class="dropdown__content">
+            <a href="#">Доп. услуги</a>
+            <a href="#">Отзывы</a>
+            <a href="#">Контакты</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section
+      data-aos-duration="1000"
+      data-aos="fade-up"
+      class="hero-section container"
+    >
+      <div class="hero-section__text">
+        <h1>Добро пожаловать на базу отдыха "Тай Вес"!</h1>
+        <p>
+          Мы создали идеальные условия для вашего отдыха: уютные домики,
+          живописные пейзажи, чистый воздух и множество возможностей для
+          расслабленного досуга.
+        </p>
+        <a href="#">Забронировать</a>
+      </div>
+    </section>
+    <section class="about-us container">
+      <div class="about-us__text">
+        <h2 data-aos-duration="1000" data-aos="fade-right">
+          "Тай Вес" – это место, куда хочется возвращаться
+        </h2>
+        <p data-aos-duration="1000" data-aos="fade-left">
+          Мы создали идеальные условия для вашего отдыха: уютные домики,
+          живописные пейзажи, чистый воздух и множество возможностей для
+          активного или расслабленного досуга. <br />База расположена в
+          уникальном месте, где каждый найдет то, что ищет: тишину для
+          уединения, простор для веселых семейных выходных.
+        </p>
+      </div>
+      <img class="about-us__image" src="./images/about-us.png" alt="О нас" />
+    </section>
+    <section class="our-services container">
+      <div class="our-services__text">
+        <h2 class="our-services__header">Номера у самого моря</h2>
+        <p class="our-services__paragraph">
+          Уютные комнаты для вашего комфортного отдыха на побережье
+        </p>
+      </div>
+      <div class="our-services__all-cards">
+        <div class="our-services__card">
+          <img src="./images/services1.png" alt="Номер" />
+          <div class="our-services__card-text">
+            <h3 class="our-services__card-text__header">Номер 1</h3>
+            <p>
+              Please add your content here. Keep it short and simple. And smile
+              :)
+            </p>
+            <hr />
+            <h3 class="our-services__card-text__subheader">Опции</h3>
+            <div class="our-services__card-tags">
+              <div class="our-services__card-tag">Tag 1</div>
+              <div class="our-services__card-tag">Tag 2</div>
+              <div class="our-services__card-tag">Tag 3</div>
+              <div class="our-services__card-tag">Tag 4</div>
+            </div>
+            <a href="#">Оформить</a>
+          </div>
+        </div>
+        <div class="our-services__card">
+          <img src="./images/services2.png" alt="Номер" />
+          <div class="our-services__card-text">
+            <h3 class="our-services__card-text__header">Номер 2</h3>
+            <p>
+              Please add your content here. Keep it short and simple. And smile
+              :)
+            </p>
+            <hr />
+            <h3 class="our-services__card-text__subheader">Опции</h3>
+            <div class="our-services__card-tags">
+              <div class="our-services__card-tag">Tag 1</div>
+              <div class="our-services__card-tag">Tag 2</div>
+              <div class="our-services__card-tag">Tag 3</div>
+              <div class="our-services__card-tag">Tag 4</div>
+            </div>
+            <a href="#">Оформить</a>
+          </div>
+        </div>
+        <div class="our-services__card">
+          <img src="./images/services3.png" alt="Номер" />
+          <div class="our-services__card-text">
+            <h3 class="our-services__card-text__header">Номер 3</h3>
+            <p>
+              Please add your content here. Keep it short and simple. And smile
+              :)
+            </p>
+            <hr />
+            <h3 class="our-services__card-text__subheader">Опции</h3>
+            <div class="our-services__card-tags">
+              <div class="our-services__card-tag">Tag 1</div>
+              <div class="our-services__card-tag">Tag 2</div>
+              <div class="our-services__card-tag">Tag 3</div>
+              <div class="our-services__card-tag">Tag 4</div>
+            </div>
+            <a href="#">Оформить</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="reviews container">
+      <div class="reviews-header">
+        <h2>Guest Reviews</h2>
+        <p>Our stay was absolutely wonderful and relaxing!</p>
+      </div>
+      <div class="reviews-slider">
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>"The views were breathtaking and the service was impeccable!"</p>
+          <div class="reviewer-info">
+            <img src="placeholder.png" alt="Emily Johnson">
+            <div>
+              <strong>Emily Johnson</strong>
+              <span>Travel Blogger</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>"A perfect getaway for families and couples alike!"</p>
+          <div class="reviewer-info">
+            <img src="placeholder.png" alt="Michael Smith">
+            <div>
+              <strong>Michael Smith</strong>
+              <span>Business Executive</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>"I can't wait to return to this paradise!"</p>
+          <div class="reviewer-info">
+            <img src="placeholder.png" alt="Sarah Lee">
+            <div>
+              <strong>Sarah Lee</strong>
+              <span>Event Planner</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>"I can't wait to return to this paradise!"</p>
+          <div class="reviewer-info">
+            <img src="placeholder.png" alt="Sarah Lee">
+            <div>
+              <strong>Sarah Lee</strong>
+              <span>Event Planner</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="faq-section container">
+      <h2>Популярные вопросы</h2>
+      <p>
+        Мы собрали ответы на самые частые вопросы, которые помогут вам лучше
+        узнать нас и наши услуги
+      </p>
+      <div class="faq">
+        <div class="faq-item">
+          <button class="faq-question">
+            What is Webflow and why is it the best website builder?
+            <span
+              ><img
+                class="faq-icon"
+                src="./images/arrow-up-white.svg"
+                alt="arrow-up"
+            /></span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            What is your favorite template from BRIX Templates?
+            <span
+              ><img
+                class="faq-icon"
+                src="./images/arrow-up-white.svg"
+                alt="arrow-up"
+            /></span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            How do you clone a Webflow Template from the Showcase?
+            <span
+              ><img
+                class="faq-icon"
+                src="./images/arrow-up-white.svg"
+                alt="arrow-up"
+            /></span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Why is BRIX Templates the best Webflow agency out there?
+            <span
+              ><img
+                class="faq-icon"
+                src="./images/arrow-up-white.svg"
+                alt="arrow-up"
+            /></span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="our-contacts container">
+      <div class="our-contacts__phone">
+        <h3>Контакты</h3>
+        <h2>Связаться с нами</h2>
+        <p>Мы всегда готовы помочь вам с запросами и бронированием. <br>Обращайтесь в любое время!</p>
+        <div class="our-contacts__phone-buttons">
+          <img src="./images/phone.svg" alt="Телефон">
+          <a href="tel:+79189927207">+7 (918) 992-72-07</a>
+          <span>Екатерина</span>
+        </div>
+        <div class="our-contacts__phone-buttons">
+          <img src="./images/phone.svg" alt="Телефон">
+          <a href="tel:+79184779993">+7 (918) 477-99-93</a>
+          <span>Сергей</span>
+        </div>
+      </div>
+      <span class="our-contacts__and">или</span>
+      <form class="custom-form">
+        <div class="form-group">
+          <label for="name"><span style="color: red;">*</span> Имя</label>
+          <input type="text" id="name" placeholder="Ваше имя" required>
+        </div>
+      
+        <div class="form-group">
+          <label for="phone"><span style="color: red;">*</span> Номер телефона</label>
+          <div class="phone-input">
+            <span class="phone-icon"><img src="./images/phoneBlue.svg" alt="Телефон" style="max-width: 17px;"></span>
+            <input type="tel" id="phone" placeholder="+7 (999) 123-45-67" required>
+          </div>
+        </div>
+      
+        <div class="form-group">
+          <label for="number"><span style="color: red;">*</span> Интересующий вас номер</label>
+          <select id="number" required>
+            <option value="" disabled selected>Выберите номер</option>
+            <option value="1">Номер 1</option>
+            <option value="2">Номер 2</option>
+          </select>
+        </div>
+      
+        <div class="form-group">
+          <label for="check-in"><span style="color: red;">*</span> Дата заезда</label>
+          <input type="date" id="check-in" required>
+        </div>
+      
+        <div class="form-group">
+          <label for="check-out"><span style="color: red;">*</span> Дата выезда</label>
+          <input type="date" id="check-out" required>
+        </div>
+      
+        <p class="form-note">
+          <img src="./images/error.svg" alt="Ошибка"> Убедитесь, что выбранная дата заезда раньше даты выезда.
+        </p>
+      
+        <button type="submit" class="submit-btn">Отправить</button>
+      </form>
+    </section>
+    <section class="maps">
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A88c63a66070204681e9e885973214e340a4571ace799af8d9d39e0e0ce28f120&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+    </section>
+    <footer class="footer">
+      <div class="footer__links container">
+        <img class="footer__links-logo" src="./images/logo.png" alt="Логотип">
+        <div class="footer__links-company">
+          <a href="#">Explore More</a>
+          <a href="#">Our Story</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Book Now</a>
+          <a href="#">Special Offers</a>
+        </div>
+        <div class="footer__social">
+          <a href="#"><img src="./images/Facebook.svg" alt="социальные сети"></a>
+          <a href="#"><img src="./images/Instagram.svg" alt="социальные сети"></a>
+          <a href="#"><img src="./images/X.svg" alt="социальные сети"></a>
+          <a href="#"><img src="./images/LinkedIn.svg" alt="социальные сети"></a>
+          <a href="#"><img src="./images/Youtube.svg" alt="социальные сети"></a>
+        </div>
+      </div>
+      <hr class="container">
+      <div class="footer__other">
+        <span>© 2024 Разработано <a href="https://technos-studio.ru">ТехноСтудией</a>. Все права защищены.</span>
+        <div class="footer__other-links">
+          <a href="#">Политика конфиденциальности</a>
+          <a href="#">Правила пользования</a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
