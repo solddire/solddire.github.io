@@ -489,6 +489,10 @@ body{
         font-family: "Roboto";
         box-sizing: border-box; /* Убедитесь, что padding включен */
         max-width: 300px;
+        box-sizing: border-box;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
     }
     
     input::placeholder, select {
@@ -540,12 +544,6 @@ body{
     .submit-btn:hover {
         background-color: #357ab8;
     }
-}
-select, input[type="date"], input[type="text"], input[type="tel"] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    min-width: 400px;
 }
 .maps{
     padding: 75px 0;
