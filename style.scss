@@ -541,6 +541,11 @@ body{
         background-color: #357ab8;
     }
 }
+select, input[type="date"], input[type="text"], input[type="tel"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
 .maps{
     padding: 75px 0;
 }
