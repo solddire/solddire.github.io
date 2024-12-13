@@ -99,6 +99,7 @@
     }
     .our-contacts .custom-form {
         max-width: 330px;
+        min-width: 330px;
     }
 }
 @media (max-width:450px) {
@@ -117,5 +118,6 @@
     }
     .our-contacts .custom-form {
         max-width: 276px;
+        min-width: 276px;
     }
 }
