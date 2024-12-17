@@ -26,9 +26,10 @@ body{
             background-color: #fff;
             top: 100px;
             z-index: 1;
+            border-radius: 10px;
             ul{
                 list-style: none;
-                padding: 0;
+                padding: 10px;
                 margin: 0;
             }
             ul li{
@@ -40,6 +41,9 @@ body{
                 text-decoration: none;
                 color: #000;
             }
+        }
+        &-dropdown.active{
+            display: block;
         }
     }
     &__logo{
@@ -452,6 +456,22 @@ body{
                 padding: 12px 24px;
                 border-radius: 40px;
             }
+        }
+    }
+    &__map{
+        display: flex;
+        flex-direction: column;
+        h3{
+            margin-top: 35px;
+        }
+        a{
+            margin-top: 20px;
+            background-color: #ff5b5b;
+            text-decoration: none;
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 40px;
+            max-width: fit-content;
         }
     }
     &__and{

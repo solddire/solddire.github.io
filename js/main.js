@@ -65,6 +65,6 @@ document.querySelector('.header__burger').addEventListener('click', function () 
   const dropdownContent = document.querySelector('.header__burger-dropdown');
   const heroSec = document.querySelector('.hero-section');
   heroSec.classList.toggle('blurred');
-  dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+  dropdownContent.classList.contains('active') ? dropdownContent.classList.remove('active') : dropdownContent.classList.add('active');
 });
   
